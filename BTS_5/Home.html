@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito di Lionel Messi</title>
+    <!-- Inclusione di Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section-title {
+            font-size: 1.5rem;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .photo-title {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .photo-description {
+            font-size: 1rem;
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .photo-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .photo-container img {
+            width: 100%;
+            height: auto;
+        }
+        .label-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra di navigazione -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand" href="#">Matteo Sbarra</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button class="nav-link" id="home-btn">Trofei</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="about-btn">Squadre</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="gallery-btn">Record</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="contact-btn">Vita</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sezione di Lionel Messi -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Lionel Messi</h1>
+                </div>
+                <div class="col-md-6">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessi1.jpg" alt="fotoMessi1" witdh="80" height="50" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery con descrizioni -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Maggiori Trofei</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiTrofeo1.jpg"  witdh="200" height="100" alt="fotoMessiTrofeo1" class="img-fluid">
+                </div>
+                <div class="col-md-2">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiTrofeo2.jpg" alt="fotoMessiTrofeo2" witdh="260" height="180" class="img-fluid">
+                </div>
+                <div class="col-md-2">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiTrofeo3.jpg" alt="fotoMessiTrofeo3" witdh="760" height="600" class="img-fluid">
+                </div>
+                <div class="col-md-2">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiTrofeo4.jpg" alt="fotoMessiTrofeo4" class="img-fluid">
+                </div>
+                <div class="col-md-2">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiTrofeo5.jpg" alt="fotoMessiTrofeo5" class="img-fluid">
+                </div>
+                <div class="col-md-2">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiTrofeo6.jpg" alt="fotoMessiTrofeo6" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="photo-description">Nelle foto sopra ho messo delle foto di messi con i trofei più prestigiosi che ha vinto durante tutta la sua carriera.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Foto con titolo e descrizione -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="photo-container">
+                <div class="col-md-6">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiSquadra1.jpg" alt="fotoMessiSquadra1" witdh="200" height="160" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="photo-title">Prima squadra</h3>
+                    <p class="photo-description">Messi ha giocato quasi tutta la sua vita nel Barcellona, infatti è entrato a far parte del Barcellona nelle giovanili e se n'è andato quasi ormai aveva già vinto tutto con il club</p>
+                </div>
+            </div>
+
+            <div class="photo-container">
+                <div class="col-md-6">
+                    <h3 class="photo-title">Seconda squadra</h3>
+                    <p class="photo-description">La sua avventura al PSG è iniziata dopo quella con il Barcellona. E' arrivato nel 2021 e se n'è andato nel 2023 dopo 58 partite e 28 goal con qualche trofeo.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiSquadra2.jpg" alt="fotoMessiSquadra2" witdh="200" height="160" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Altra foto e descrizione -->
+    <section class="section">
+        <div class="container">
+            <div class="photo-container">
+                <div class="col-md-6">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiSquadra3.jpg" alt="fotoMessiSquadra3" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="photo-title">Terza Squadra</h3>
+                    <p class="photo-description">Nel 2023 è andato a giocare in America, dove tutt'ora gioca, precisamente nell'Inter Miami. Fino ad ora ha collezionato 25 presenze e segnato 21 goal</p>
+                </div>
+            </div>
+
+            <div class="photo-container">
+                <div class="col-md-6">
+                    <h3 class="photo-title">Quarta Squadra</h3>
+                    <p class="photo-description">L'Argentina è la sua Nazionale, è il capocannoniere della nazionale e si può dire che è il migliore giocatore di tutta la storia dell'Argentina.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="C:\Users\net.LABXX-XX.001\Downloads\Esercizi-Bootstrap-main\Esercizi-Bootstrap-main\BTS_5\foto\fotoMessiSquadra4.jpg" alt="fotoMessiSquadra4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione per descrivere i record infranti -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Record Infranti</h2>
+        <div class="row">
+            <!-- Record infranto 1 -->
+            <div class="col-md-4">
+                <p>Record Infranto 1: Descrizione del record infranto.</p>
+                <p class="photo-description">Descrizione record di Messi.</p>
+            </div>
+            <!-- Record infranto 2 -->
+            <div class="col-md-4">
+                <p>Record Infranto 2: Descrizione del record infranto.</p>
+                <p class="photo-description">Descrizione record di Messi.</p>
+            </div>
+            <!-- Record infranto 3 -->
+            <div class="col-md-4">
+                <p>Record Infranto 3: Descrizione del record infranto.</p>
+                <p class="photo-description">Descrizione record di Messi.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <!-- Record infranto 4 -->
+            <div class="col-md-4">
+                <p>Record Infranto 4: Descrizione del record infranto.</p>
+                <p class="photo-description">Descrizione record di Messi.</p>
+            </div>
+            <!-- Record infranto 5 -->
+            <div class="col-md-4">
+                <p>Record Infranto 5: Descrizione del record infranto.</p>
+                <p class="photo-description">Descrizione record di Messi.</p>
+            </div>
+            <!-- Record infranto 6 -->
+            <div class="col-md-4">
+                <p>Record Infranto 6: Descrizione del record infranto.</p>
+                <p class="photo-description">Descrizione record di Messi.</p>     
+                  
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Foto finale con titolo -->
+    <section class="section">
+        <div class="container">
+            <div class="photo-container">
+                <div class="col-md-6">
+                    <h3 class="align-center">La sua vita</h3>
+                    <p class="photo-description">Descrizione della vita di Messi.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="messi5.jpg" alt="Ultima foto Messi" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inclusione di Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
